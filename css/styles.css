@@ -6083,6 +6083,10 @@ button.bg-primary:focus {
   background-color: #fec503 !important;
 }
 
+.bg-blue {
+  background-color: #061E36;
+}
+
 .bg-secondary {
   background-color: #6c757d !important;
 }
@@ -10493,4 +10497,13 @@ section#contact form#contactForm :-ms-input-placeholder {
   text-align: center;
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.card-pricing.popular {
+  z-index: 1;
+  border: 3px solid #061E36;
+}
+.card-pricing .list-unstyled li {
+  padding: .5rem 0;
+  color: #6c757d;
 }
