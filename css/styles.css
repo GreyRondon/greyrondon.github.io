@@ -10085,7 +10085,7 @@ img::-moz-selection {
   letter-spacing: 0.0625em;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #fed136;
+  color: #9FB7CF;
 }
 
 @media (min-width: 992px) {
@@ -10184,7 +10184,8 @@ header.masthead .masthead-heading {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: rgba(254, 209, 54, 0.9);
+  /* background: rgba(254, 209, 54, 0.9); */
+  background: rgba(6, 30, 54, 0.7);
   align-items: center;
   justify-content: center;
   opacity: 0;
@@ -10441,7 +10442,7 @@ section#contact {
   background-position: center;
 }
 section#contact .section-heading {
-  color: #6F94B7;
+  color: #fff;
 }
 section#contact form#contactForm .form-group {
   margin-bottom: 1.5rem;
