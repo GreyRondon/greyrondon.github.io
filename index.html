@@ -274,7 +274,7 @@
                         <div class="card card-pricing popular text-center px-3 mb-4">
                             <span class="h6 w-60 mx-auto px-4 py-1 rounded-bottom bg-blue text-white shadow-sm">Básico</span>
                             <div class="bg-transparent card-header pt-4 border-0">
-                                <h1 class="h1 font-weight-normal text-blue text-center mb-0" data-pricing-value="15">$<span class="price">180</span><span class="h6 text-muted ml-2"></span></h1>
+                                <h1 class="h1 font-weight-normal text-blue text-center mb-0" data-pricing-value="15">$<span class="price"></span><span class="h6 text-muted ml-2"></span></h1>
                             </div>
                             <div class="card-body pt-0">
                                 <ul class="list-unstyled mb-4">
@@ -289,7 +289,7 @@
                         <div class="card card-pricing popular shadow text-center px-3 mb-4">
                             <span class="h6 w-60 mx-auto px-4 py-1 rounded-bottom bg-blue text-white shadow-sm">Profesional</span>
                             <div class="bg-transparent card-header pt-4 border-0">
-                                <h1 class="h1 font-weight-normal text-blue text-center mb-0" data-pricing-value="30">$<span class="price">200</span><span class="h6 text-muted ml-2"></span></h1>
+                                <h1 class="h1 font-weight-normal text-blue text-center mb-0" data-pricing-value="30">$<span class="price"></span><span class="h6 text-muted ml-2"></span></h1>
                             </div>
                             <div class="card-body pt-0">
                                 <ul class="list-unstyled mb-4">
@@ -336,7 +336,7 @@
         <section class="page-section bg-light" id="team">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Equipo</h2>
+                    <h2 class="section-heading text-uppercase">Sobre mi</h2>
                     <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
                 </div>
                 <div class="row">
@@ -372,32 +372,38 @@
                         </div> -->
                     </div>
                 </div>
-                <!-- <div class="row">
-                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p></div>
-                </div> -->
+                <div class="row">
+                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">5 años de experiencia en desarrollo web, métodologías ágiles, MVC, Api REST</p></div>
+                </div>
             </div>
         </section>
         <!-- Clients-->
         <div class="py-5">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-2 col-sm-6 my-3">
+                    <div class="col-2">
                         <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/vue.png" alt="" /></a>
                     </div>
-                    <div class="col-md-2 col-sm-6 my-3">
+                    <div class="col-2">
                         <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/php-logo.png" alt="" /></a>
                     </div>
-                    <div class="col-md-2 col-sm-6 my-3">
+                    <div class="col-2">
                         <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/postgresql-logo.png" alt="" /></a>
                     </div>
-                    <div class="col-md-2 col-sm-6 my-3">
+                    <div class="col-2">
                         <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/laravel-logo-1.png" alt="" /></a>
                     </div>
-                    <div class="col-md-2 col-sm-6 my-3">
+                    <div class="col-2">
                         <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/sql.png" alt="" /></a>
                     </div>
-                    <div class="col-md-2 col-sm-6 my-3">
+                    <div class="col-2">
                         <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/html.png" alt="" /></a>
+                    </div>
+                    <div class="col-2">
+                        <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/csharp.jpg" alt="" /></a>
+                    </div>
+                    <div class="col-2">
+                        <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/git.png" alt="" /></a>
                     </div>
                 </div>
             </div>
@@ -466,11 +472,24 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <div class="modal-body">
+                                    <div class="slideshow-container">
+                                        <div class="mySlides1">
+                                          <img src="assets/img/portfolio/menssajerohome.PNG" style="width:100%">
+                                        </div>
+                                      
+                                        <div class="mySlides1">
+                                          <img src="assets/img/portfolio/menssajerodetalle.PNG" style="width:100%">
+                                        </div>
+
+                                        <div class="mySlides1">
+                                            <img src="assets/img/portfolio/menssajerohome2.PNG" style="width:100%">
+                                          </div>
+                                      
+                                        <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+                                        <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+                                      </div>
                                     <!-- Project Details Go Here-->
-                                    <h2 class="text-uppercase">Tienda Online</h2>
-                                    <p class="item-intro text-muted">Visita http://mrw-distribucion.menssajero.com/</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/menssajerohome.png" alt="" />
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/menssajerodetalle.png" alt="" />
+                                    
                                     <p>
                                         Desarrollo de una tienda en línea, cuenta con carrito de compra, procesamiento de la compra, envió de correos de confirmación, registro de clientes.
                                         Cuenta con un sistema Back-Officce que le permite al cliente gestionar su tienda por él mismo.
@@ -500,11 +519,18 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <div class="modal-body">
-                                    <!-- Project Details Go Here-->
-                                    <h2 class="text-uppercase">Restaurantes</h2>
-                                    <p class="item-intro text-muted">Visita http://expresology.com/Propuesta</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/restaurants.PNG" alt="" />
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/rest.PNG" alt="" />
+                                    <div class="slideshow-container">
+                                        <div class="mySlides2">
+                                          <img src="assets/img/portfolio/restaurants.PNG" style="width:100%">
+                                        </div>
+                                      
+                                        <div class="mySlides2">
+                                          <img src="assets/img/portfolio/rest.PNG" style="width:100%">
+                                        </div>
+
+                                        <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+                                        <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+                                      </div>
                                     <p>Webs desarrolladas para el área de restaurantes </p>
                                     <!-- <ul class="list-inline">
                                         <li>Date: January 2020</li>
@@ -531,10 +557,18 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <div class="modal-body">
-                                    <!-- Project Details Go Here-->
-                                    <h2 class="text-uppercase">Inventarios</h2>
-                                    <!-- <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p> -->
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/inventario-det.PNG" alt="" />
+                                    <div class="slideshow-container">
+                                        <div class="mySlides3">
+                                          <img src="assets/img/portfolio/inventario-det.PNG" style="width:100%">
+                                        </div>
+                                      
+                                        <div class="mySlides3">
+                                          <img src="assets/img/portfolio/rest.PNG" style="width:100%">
+                                        </div>
+
+                                        <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+                                        <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+                                      </div>
                                     <p>Aplicación web para el manejo de inventario de materiales y equipos</p>
                                     <!-- <ul class="list-inline">
                                         <li>Date: January 2020</li>
@@ -561,11 +595,18 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <div class="modal-body">
-                                    <!-- Project Details Go Here-->
-                                    <h2 class="text-uppercase">Encomiendas</h2>
-                                    <p class="item-intro text-muted">Visita http://europa.serviciosexpresos.com/propuesta</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/encomienda-det.PNG" alt="" />
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/encomienda-det2.PNG" alt="" />
+                                    <div class="slideshow-container">
+                                        <div class="mySlides4">
+                                          <img src="assets/img/portfolio/encomienda-det.PNG" style="width:100%">
+                                        </div>
+                                      
+                                        <div class="mySlides4">
+                                          <img src="assets/img/portfolio/encomienda-det2.PNG" style="width:100%">
+                                        </div>
+
+                                        <a class="prev" onclick="plusSlides(-1, 3)">&#10094;</a>
+                                        <a class="next" onclick="plusSlides(1, 3)">&#10095;</a>
+                                      </div>
                                     <p>Páginas web para empresas de encomienda Nacional e Internacional, integradas con apis.</p>
                                     <!-- <ul class="list-inline">
                                         <li>Date: January 2020</li>
@@ -592,12 +633,20 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <div class="modal-body">
-                                    <!-- Project Details Go Here-->
-                                    <h2 class="text-uppercase">Servicios</h2>
-                                    <p class="item-intro text-muted">Visita http://camineuropa.com/</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/servicios-det.PNG" alt="" />
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/servicios-det2.PNG" alt="" />
-                                    <p>Páginas web para todo tipo de empresas</p>
+                                    <div class="slideshow-container">
+                                        <div class="mySlides5">
+                                          <img src="assets/img/portfolio/servicios-det.PNG" style="width:100%">
+                                        </div>
+                                      
+                                        <div class="mySlides5">
+                                          <img src="assets/img/portfolio/servicios-det2.PNG" style="width:100%">
+                                        </div>
+
+                                        <a class="prev" onclick="plusSlides(-1, 4)">&#10094;</a>
+                                        <a class="next" onclick="plusSlides(1, 4)">&#10095;</a>
+                                        <p>Páginas web para todo tipo de empresas</p>
+                                      </div>
+                                   
                                     <!-- <ul class="list-inline">
                                         <li>Date: January 2020</li>
                                         <li>Client: Southwest</li>
@@ -623,10 +672,17 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <div class="modal-body">
-                                    <!-- Project Details Go Here-->
-                                    <h2 class="text-uppercase">Administración de Tienda Online</h2>
-                                    <!-- <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p> -->
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/tienda.PNG" alt="" />
+                                    <div class="slideshow-container">
+                                        <div class="mySlides6">
+                                          <img src="assets/img/portfolio/01-full.jpg" style="width:100%">
+                                        </div>
+                                      
+                                        <div class="mySlides6">
+                                          <img src="assets/img/portfolio/servicios-det2.PNG" style="width:100%">
+                                        </div>
+
+                                        <a class="prev" onclick="plusSlides(-1, 5)">&#10094;</a>
+                                        <a class="next" onclick="plusSlides(1, 5)">&#10095;</a>
                                     <p>Aplicación web para administrar una tienda Online, productos, precios, categorías, detalles de productos, clientes, ventas, pedidos</p>
                                     <!-- <ul class="list-inline">
                                         <li>Date: January 2020</li>
@@ -656,3 +712,71 @@
         <script src="js/scripts.js"></script>
     </body>
 </html>
+
+<script>
+var slideIndex = [1,1,1,1,1,1,1];
+var slideId = ["mySlides1", "mySlides2","mySlides3","mySlides4", "mySlides5","mySlides6"]
+showSlides(1, 0);
+showSlides(1, 1);
+showSlides(1, 2);
+showSlides(1, 3);
+showSlides(1, 4);
+showSlides(1, 5);
+
+function plusSlides(n, no) {
+  showSlides(slideIndex[no] += n, no);
+}
+
+function showSlides(n, no) {
+  var i;
+  var x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}    
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex[no]-1].style.display = "block";  
+}
+</script>
+
+<style>
+  * {box-sizing: border-box}
+.mySlides1, .mySlides2, .mySlides3, .mySlides4, .mySlides5, .mySlides6 {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  /* margin-top: -22px; */
+  margin-left: -50%;
+  color: #343a40;
+  font-weight: bold;
+  font-size: 28px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+    </style>
